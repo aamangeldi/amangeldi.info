@@ -1,2 +1,2 @@
-# amir.amangeldi.com
+# amangeldi.info
 personal website
