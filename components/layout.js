@@ -21,8 +21,7 @@ const Layout = props => (
         justify-content: center;
       }
       .wrapper-inner {
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding: 1em;
         width: 50em;
       }
     `}</style>

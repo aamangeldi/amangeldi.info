@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 export default function Resume() {
   return (
     <Layout>
-      <div className='bottom-line bottom-padded'>
+      <div className='bottom-line padded-bottom'>
         <p className='bolded'>Senior Software Engineer - EverQuote Inc. Cambridge, MA. 2/19 - present.</p>
         <p>Building company-wide analytics platform, piping and transforming data from ~1000 different sources to extract business value. Created Everflow, a system to schedule and monitor data pipelines, used by 5 teams (<i>Python, Airflow, Terraform, Ansible, AWS, Snowflake, dbt, Sqoop</i>).</p>
         <p>Implemented Move-My-Data, a web app for self-serve scheduled data transfer, used by 10+ analyst teams to keep 160+ data sources up-to-date in a data lake (<i>Django, React.js, MySQL, PostgreSQL, Docker, CircleCI, Kubernetes, Databricks</i>).</p>
@@ -15,22 +15,22 @@ export default function Resume() {
         <p className='bolded'>Software Development Intern - InterSystems Corporation. Cambridge, MA. 5/16 - 8/16.</p>
         <p>Implemented features for the internal HR/finance web app, presented results in front of 100+ people (<i>Javascript, HTML, CSS, Zen, InterSystems Caché</i>).</p>
       </div>
-      <div className='bottom-line bottom-padded top-padded'>
+      <div className='bottom-line padded-bottom padded-top'>
         <p className='bolded'>Language Tables App. Middlebury, VT. 9/16 - 5/17.</p>
         <p>Created and productionized a single-page web app for the Language Tables lunch program at Middlebury College, in a 3-person team. The app automates table allocation, tracks and reports attendance, handles sign-up and check-in of 120+ students daily. Wrote a senior thesis on rationale and system architecture. (<i>React.js, Express.js, Node.js, MongoDB</i>).</p>
       </div>
       <div>
-        <p className='bolded top-padded'>Middlebury College, 2017. Magna Cum Laude. Phi Beta Kappa Honors.</p>
+        <p className='bolded padded-top'>Middlebury College, 2017. Magna Cum Laude. Phi Beta Kappa Honors.</p>
         <p>B.A. in Computer Science (Highest Honors) and Economics. GPA: 3.92/4.<br/>Tutor for Data Structures and Computer Architecture courses (<i>Java, Linux, OS</i>).</p>
       </div>
       <style jsx>{`
         .bolded {
           font-weight: bold;
         }
-        .bottom-padded {
+        .padded-bottom {
           padding-bottom: 1em;
         }
-        .top-padded {
+        .padded-top {
           padding-top: 1em;
         }
       `}</style>

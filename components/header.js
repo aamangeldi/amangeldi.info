@@ -2,14 +2,14 @@ import Link from 'next/link';
 
 const Header = () => (
   <div className='wrapper-outer'>
-    <nav className='bottom-line header-wrapper-inner wrapper-inner'>
-      <Link href="/">
+    <nav className='bottom-line header-wrapper-inner wrapper-inner padded-left-right'>
+      <Link href='/'>
         <a>Home</a>
       </Link>
-      <Link href="/timeline">
-        <a>Timeline</a>
+      <Link href='/timeline'>
+        <a className='padded-left-right'>Timeline</a>
       </Link>
-      <Link href="/resume">
+      <Link href='/resume'>
         <a>Resume</a>
       </Link>
     </nav>
@@ -21,6 +21,8 @@ const Header = () => (
       .header-wrapper-inner {
         display: flex;
         justify-content: space-between;
+      }
+      .padded-left-right {
         padding-left: 1em;
         padding-right: 1em;
       }
