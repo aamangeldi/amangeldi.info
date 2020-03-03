@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export -o docs",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"(Re)build and (re)deploy\" && git push origin master"
   },  
   "repository": {
     "type": "git",
