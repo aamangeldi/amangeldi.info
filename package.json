@@ -1,0 +1,27 @@
+{
+  "name": "amangeldi.info",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aamangeldi/amangeldi.info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aamangeldi/amangeldi.info/issues"
+  },
+  "homepage": "https://github.com/aamangeldi/amangeldi.info#readme",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
