@@ -1,7 +1,11 @@
+import Head from "next/head";
 import Header from './header';
 
 const Layout = props => (
   <div>
+    <Head>
+      <title>amangeldi.info</title>
+    </Head>
     <Header />
     <div className='wrapper-outer'>
       <div className='wrapper-inner'>
