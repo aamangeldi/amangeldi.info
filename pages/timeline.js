@@ -1,6 +1,6 @@
 import Layout from '../components/layout';
 
-export default function Resume() {
+export default function Timeline() {
   const facts = {
     '1996': ['Born in Almaty, Kazakhstan.'],
     '2000': ['Moved to Ashgabat, Turkmenistan.'],
@@ -15,14 +15,15 @@ export default function Resume() {
       'Moved to Cambridge, MA to join InterSystems as a sales engineer.'
     ],
     '2018': ['Joined EverQuote as a software engineer.'],
-    '2019': ['Promoted to senior software engineer at EverQuote.', 'Adopted two kittens: Cece and Sasha.'],
+    '2019': ['Promoted to senior software engineer at EverQuote.'],
+    '2020': ['Joined Amazon as a software development engineer II.']
   }
   const mapFacts = (facts) => {
     return Object.entries(facts).map(([key, value]) => {
       return (
         <div className='row' key={key}>
           <div className='year'><p>{key}</p></div>
-          <div className='facts'>{value.map((v) => (<p>{v}</p>))}</div>
+          <div className='facts'>{value.map((v) => (<p key={v}>{v}</p>))}</div>
           <style jsx>{`
             .row {
               display: flex;

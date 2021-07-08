@@ -16,6 +16,7 @@ const Layout = props => (
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
+        margin: 0;
       }
       .bottom-line {
         border-bottom: 1px solid #9b9b9b;
@@ -27,6 +28,7 @@ const Layout = props => (
       .wrapper-inner {
         padding: 1em;
         width: 50em;
+        margin-top: 3em;
       }
     `}</style>
   </div>
