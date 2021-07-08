@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 const Header = () => (
   <div className='wrapper-outer header-fixed'>
-    <nav className='bottom-line header-wrapper-inner padded-left padded-right'>
+    <nav className='bottom-line header-wrapper-inner'>
       <Link href='/'>
-        <a className='padded-left'>Timeline</a>
+        <a className='padded-right-small'>Timeline</a>
       </Link>
       <Link href='/resume'>
-        <a className='padded-right'>Resume</a>
+        <a className='padded-left-small'>Resume</a>
       </Link>
     </nav>
     <style jsx>{`
@@ -17,21 +17,18 @@ const Header = () => (
       }
       .header-fixed {
         background: white;
-        position: fixed;
         height: 3em;
+        position: fixed;
         width: 100%;
       }
       .header-wrapper-inner {
         display: flex;
         justify-content: space-between;
-        padding: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 12em;
+        padding-right: 12em;
         width: 50em;
-      }
-      .padded-left {
-        padding-left: 4em;
-      }
-      .padded-right {
-        padding-right: 4em;
       }
     `}</style>
   </div>

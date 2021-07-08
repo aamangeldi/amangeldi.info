@@ -13,6 +13,9 @@ const Layout = props => (
       </div>
     </div>
     <style jsx global>{`
+      html {
+        overflow-y: scroll;
+      }
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
@@ -21,14 +24,23 @@ const Layout = props => (
       .bottom-line {
         border-bottom: 1px solid #9b9b9b;
       }
+      .padded-left-small {
+        padding-left: 3em;
+      }
+      .padded-right-small {
+        padding-right: 3em;
+      }
       .wrapper-outer {
         display: flex;
         justify-content: center;
       }
       .wrapper-inner {
-        padding: 1em;
-        width: 50em;
         margin-top: 3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 3em;
+        padding-right: 3em;
+        width: 50em;
       }
     `}</style>
   </div>
