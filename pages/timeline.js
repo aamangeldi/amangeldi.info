@@ -16,7 +16,8 @@ export default function Timeline() {
     ],
     '2018': ['Joined EverQuote as a software engineer.'],
     '2019': ['Promoted to senior software engineer at EverQuote.'],
-    '2020': ['Joined Amazon as a software development engineer II.']
+    '2020': ['Joined Amazon as a software development engineer II.'],
+    '2021': ['Transferred over to Twitch, to work on builder products.']
   }
   const mapFacts = (facts) => {
     return Object.entries(facts).map(([key, value]) => {

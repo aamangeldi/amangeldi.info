@@ -4,8 +4,12 @@ export default function Resume() {
   return (
     <Layout>
       <div className='bottom-line padded-bottom'>
+      <div>
+          <p className='bolded'>Software Development Engineer II - Twitch. San Francisco, CA. 9/21 - present.</p>
+          <p>Builder products and operational excellence. Think: insights into company-wide availability, latency, security, engineering standards.</p>
+        </div>
         <div>
-          <p className='bolded'>Software Development Engineer II - Amazon. Sunnyvale, CA. 6/20 - present.</p>
+          <p className='bolded'>Software Development Engineer II - Amazon. Sunnyvale, CA. 6/20 - 9/21.</p>
           <p>Building internal tooling and extensions for the Product Lifecycle Management system in the Devices organization (also known as Lab126).</p>
         </div>
         <div className='padded-top-element'>
