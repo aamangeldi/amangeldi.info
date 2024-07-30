@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"(Re)build and (re)deploy\" && git push origin master"
+    "deploy": "next build && git checkout -- out/CNAME && git checkout -- out/.nojekyll && git add out && git commit -m \"(Re)build and (re)deploy\" && git push origin master"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/aamangeldi/amangeldi.info#readme",
   "dependencies": {
     "next": "^14.2.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
