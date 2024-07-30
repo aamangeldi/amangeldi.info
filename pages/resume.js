@@ -6,7 +6,7 @@ export default function Resume() {
       <div className='bottom-line padded-bottom'>
         <div>
           <p className='bolded'>Harvard Business School, Harvard School of Engineering and Applied Sciences, 2026 (expected).</p>
-          <p>Dual Degree MBA/MS: Engineering Sciences.</p>
+          <p>MBA/MS: Engineering Sciences.</p>
         </div>
         <div className='padded-top-element'>
           <p className='bolded'>Middlebury College, 2017. Magna Cum Laude. Phi Beta Kappa Honors.</p>
