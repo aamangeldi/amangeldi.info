@@ -4,11 +4,22 @@ export default function Resume() {
   return (
     <Layout>
       <div className='bottom-line padded-bottom'>
-      <div>
-          <p className='bolded'>Software Development Engineer II - Twitch. San Francisco, CA. 9/21 - present.</p>
-          <p>Builder products and operational excellence. Think: insights into company-wide availability, latency, security, engineering standards.</p>
-        </div>
         <div>
+          <p className='bolded'>Harvard Business School, Harvard School of Engineering and Applied Sciences, 2026 (expected).</p>
+          <p>Dual Degree MBA/MS: Engineering Sciences.</p>
+        </div>
+        <div className='padded-top-element'>
+          <p className='bolded'>Middlebury College, 2017. Magna Cum Laude. Phi Beta Kappa Honors.</p>
+          <p>BA in Computer Science (Highest Honors) and Economics. GPA: 3.92/4.<br/>Tutor for Data Structures and Computer Architecture courses.</p>
+        </div>
+      </div>
+      <div className='bottom-line padded-bottom padded-top'>
+        <div>
+          <p className='bolded'>Software Development Engineer II - Twitch. San Francisco, CA. 9/21 - 7/24.</p>
+          <p>Most recently: machine learning infrastructure.</p>
+          <p>Previously: builder products and operational excellence. Think: insights into company-wide availability, latency, security, engineering standards.</p>
+        </div>
+        <div className='padded-top-element'>
           <p className='bolded'>Software Development Engineer II - Amazon. Sunnyvale, CA. 6/20 - 9/21.</p>
           <p>Building internal tooling and extensions for the Product Lifecycle Management system in the Devices organization (also known as Lab126).</p>
         </div>
@@ -32,13 +43,9 @@ export default function Resume() {
           <p>Implemented features for the internal HR/finance web app, presented results in front of 100+ people.</p>
         </div>
       </div>
-      <div className='bottom-line padded-bottom padded-top'>
-        <p className='bolded'>Language Tables App. Middlebury, VT. 9/16 - 5/17.</p>
-        <p>Created and productionized a single-page web app for the Language Tables lunch program at Middlebury College, in a 3-person team. The app automates table allocation, tracks and reports attendance, handles sign-up and check-in of 120+ students daily. Wrote senior thesis on rationale and system architecture.</p>
-      </div>
       <div>
-        <p className='bolded padded-top'>Middlebury College, 2017. Magna Cum Laude. Phi Beta Kappa Honors.</p>
-        <p>B.A. in Computer Science (Highest Honors) and Economics. GPA: 3.92/4.<br/>Tutor for Data Structures and Computer Architecture courses.</p>
+        <p className='bolded padded-top'>Language Tables App. Middlebury, VT. 9/16 - 5/17.</p>
+        <p>Created and productionized a single-page web app for the Language Tables lunch program at Middlebury College, in a 3-person team. The app automates table allocation, tracks and reports attendance, handles sign-up and check-in of 120+ students daily. Wrote senior thesis on rationale and system architecture.</p>
       </div>
       <style jsx>{`
         .bolded {

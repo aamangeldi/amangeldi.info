@@ -3,10 +3,10 @@ import Link from 'next/link';
 const Header = () => (
   <div className='wrapper-outer header-fixed'>
     <nav className='bottom-line header-wrapper-inner'>
-      <Link href='/'>
+      <Link href='/' legacyBehavior>
         <a className='padded-right-small'>Timeline</a>
       </Link>
-      <Link href='/resume'>
+      <Link href='/resume' legacyBehavior>
         <a className='padded-left-small'>Resume</a>
       </Link>
     </nav>
