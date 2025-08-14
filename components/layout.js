@@ -26,15 +26,6 @@ const Layout = props => (
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
-      .bottom-line {
-        border-bottom: 1px solid #9b9b9b;
-      }
-      .padded-left-small {
-        padding-left: 3em;
-      }
-      .padded-right-small {
-        padding-right: 3em;
-      }
       .wrapper-outer {
         display: block;
       }
