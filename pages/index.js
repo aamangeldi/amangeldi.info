@@ -25,7 +25,7 @@ export default function Index() {
               <span className="separator">/</span>
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
               <span className="separator">/</span>
-              <span>[first name].[last name]@gmail.com</span>
+              <a href="mailto:amir.amangeldi@gmail.com">Email</a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Index() {
           max-width: 800px;
           margin: 0 auto;
           padding: 2rem;
-          height: 100vh;
+          min-height: 100vh;
           display: flex;
           align-items: center;
           box-sizing: border-box;
@@ -86,7 +86,7 @@ export default function Index() {
           display: flex;
           align-items: center;
           gap: 0.75rem;
-          flex-wrap: nowrap;
+          flex-wrap: wrap;
           margin-top: 2rem;
         }
 
@@ -123,19 +123,12 @@ export default function Index() {
           font-weight: 300;
         }
 
-        .links span:not(.separator) {
-          color: #1a1a1a;
-          font-weight: 500;
-          font-size: 1rem;
-          white-space: nowrap;
-        }
 
         @media (max-width: 768px) {
           .container {
-            padding: 3rem 1.5rem;
-            min-height: auto;
-            align-items: flex-start;
-            padding-top: 4rem;
+            padding: 2rem 1.5rem;
+            min-height: 100vh;
+            align-items: center;
           }
 
           .content-wrapper {
@@ -159,11 +152,39 @@ export default function Index() {
           .links {
             justify-content: center;
             gap: 0.5rem;
+            flex-wrap: wrap;
           }
 
           .profile-photo img {
             width: 120px;
             height: 120px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .container {
+            padding: 1.5rem 1rem;
+          }
+
+          h1 {
+            font-size: 1.75rem;
+          }
+
+          .bio {
+            font-size: 0.95rem;
+          }
+
+          .links {
+            gap: 0.4rem;
+          }
+
+          .links a, .separator {
+            font-size: 0.9rem;
+          }
+
+          .profile-photo img {
+            width: 100px;
+            height: 100px;
           }
         }
       `}</style>
