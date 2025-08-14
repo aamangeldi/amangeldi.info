@@ -19,13 +19,13 @@ export default function Index() {
               Previously, I was an engineer at Twitch, Amazon, and EverQuote, and studied CS and economics at Middlebury.
             </p>
             <div className="links">
-              <a href="mailto:amir.amangeldi@gmail.com">Email</a>
-              <span className="separator">/</span>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="https://github.com/aamangeldi" target="_blank" rel="noopener noreferrer">GitHub</a>
               <span className="separator">/</span>
               <a href="https://linkedin.com/in/aamangeldi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <span className="separator">/</span>
-              <a href="https://github.com/aamangeldi" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+              <span className="separator">/</span>
+              <span>[first name].[last name]@gmail.com</span>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function Index() {
           display: flex;
           align-items: center;
           gap: 0.75rem;
-          flex-wrap: wrap;
+          flex-wrap: nowrap;
           margin-top: 2rem;
         }
 
@@ -121,6 +121,13 @@ export default function Index() {
         .separator {
           color: #ccc;
           font-weight: 300;
+        }
+
+        .links span:not(.separator) {
+          color: #1a1a1a;
+          font-weight: 500;
+          font-size: 1rem;
+          white-space: nowrap;
         }
 
         @media (max-width: 768px) {
