@@ -13,10 +13,10 @@ export default function Index() {
           <div className="text-section">
             <h1>Amir Amangeldi</h1>
             <p className="bio">
-              Software engineer exploring meaningful projects in AI safety research. Currently pursuing MS/MBA Engineering at Harvard.
+              Software engineer building tools to advance AI research. Currently pursuing an MS/MBA in Engineering at Harvard.
             </p>
             <p className="bio">
-              Previously I was an engineer at Twitch, Amazon, and EverQuote, and studied CS and economics at Middlebury.
+              Previously, I was an engineer at Twitch, Amazon, and EverQuote, and studied CS and economics at Middlebury.
             </p>
             <div className="links">
               <a href="mailto:amir.amangeldi@gmail.com">Email</a>
