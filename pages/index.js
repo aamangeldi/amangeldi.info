@@ -25,7 +25,7 @@ export default function Index() {
               <span className="separator">/</span>
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
               <span className="separator">/</span>
-              <a href="mailto:amir.amangeldi@gmail.com">Email</a>
+              <span>amir.[last name]@gmail.com</span>
             </div>
           </div>
         </div>
@@ -121,6 +121,12 @@ export default function Index() {
         .separator {
           color: #ccc;
           font-weight: 300;
+        }
+
+        .links span:not(.separator) {
+          color: #1a1a1a;
+          font-weight: 500;
+          font-size: 1rem;
         }
 
 
