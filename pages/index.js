@@ -184,7 +184,7 @@ export default function Index() {
             gap: 0.4rem;
           }
 
-          .links a, .separator {
+          .links a, .separator, .links span:not(.separator) {
             font-size: 0.9rem;
           }
 
