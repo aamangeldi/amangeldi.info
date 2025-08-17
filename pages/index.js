@@ -13,10 +13,10 @@ export default function Index() {
           <div className="text-section">
             <h1>Amir Amangeldi</h1>
             <p className="bio">
-              Software engineer building tools to advance AI research. Currently pursuing an MS/MBA in Engineering at Harvard.
+              Experienced software engineer, currently pursuing a joint MS Engineering/MBA degree at Harvard.
             </p>
             <p className="bio">
-              Previously, I was an engineer at Twitch, Amazon, and EverQuote, and studied CS and economics at Middlebury.
+              Previously worked at Twitch, Amazon, and EverQuote, and studied CS and economics at Middlebury.
             </p>
             <div className="links">
               <a href="https://github.com/aamangeldi" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -25,7 +25,7 @@ export default function Index() {
               <span className="separator">/</span>
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
               <span className="separator">/</span>
-              <span>amir.[last name]@gmail.com</span>
+              <span>amir.[last name] at gmail.com</span>
             </div>
           </div>
         </div>
