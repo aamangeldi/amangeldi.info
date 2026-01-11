@@ -19,8 +19,7 @@ export default function Index() {
               Previously worked at Twitch (most recently on machine learning infrastructure), Amazon, and EverQuote. Studied computer science and economics at Middlebury.
             </p>
             <p className="bio">
-              Lately, I’ve been exploring how AI is changing real-world software engineering workflows:
-unslop.xyz/blog
+              Lately, I've been exploring how AI is changing real-world software engineering workflows: <a href="https://unslop.xyz/blog" target="_blank" rel="noopener noreferrer">unslop.xyz/blog</a>
             </p>
             <div className="links">
               <a href="https://github.com/aamangeldi" target="_blank" rel="noopener noreferrer">GitHub</a>
