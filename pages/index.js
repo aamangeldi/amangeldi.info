@@ -26,8 +26,6 @@ export default function Index() {
               <span className="separator">/</span>
               <a href="https://linkedin.com/in/aamangeldi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <span className="separator">/</span>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-              <span className="separator">/</span>
               <span>amir.[last name] at gmail.com</span>
             </div>
           </div>
