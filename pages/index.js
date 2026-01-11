@@ -13,10 +13,14 @@ export default function Index() {
           <div className="text-section">
             <h1>Amir Amangeldi</h1>
             <p className="bio">
-              Experienced software engineer, currently pursuing a joint MS Engineering/MBA degree at Harvard.
+              Experienced software engineer, currently pursuing a joint MS Engineering + MBA degree at Harvard.
             </p>
             <p className="bio">
-              Previously worked at Twitch, Amazon, and EverQuote, and studied CS and economics at Middlebury.
+              Previously worked at Twitch (most recently on machine learning infrastructure), Amazon, and EverQuote. Studied computer science and economics at Middlebury.
+            </p>
+            <p className="bio">
+              Lately, I’ve been exploring how AI is changing real-world software engineering workflows:
+unslop.xyz/blog
             </p>
             <div className="links">
               <a href="https://github.com/aamangeldi" target="_blank" rel="noopener noreferrer">GitHub</a>
